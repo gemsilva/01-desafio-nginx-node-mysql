@@ -1,6 +1,6 @@
-# Desafio Code.Education - Docker + Nginx + MySQL + Node.js
+# Desafio Code.Education - Docker + Nginx + Node.js + MySQL 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/gemsilva/01-desafio-nginx-node?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/gemsilva/01-desafio-nginx-node-mysql?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
