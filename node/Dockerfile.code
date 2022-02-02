@@ -1,8 +1,12 @@
-FROM node:15
+FROM node:16
+
+## RUN npm install && npm install express && npm install mysql && apt-get update && apt-get install -y wget
 
 WORKDIR /usr/src/app
-COPY . . 
-RUN npm install && npm install express && npm install mysql && apt-get update && apt-get install -y wget
+
+COPY package*.json .
+
+RUN npm install
 
 #ENV DOCKERIZE_VERSION v0.6.1
 
