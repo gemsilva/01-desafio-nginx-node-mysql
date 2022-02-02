@@ -27,8 +27,7 @@ app.get('/', (req,res) => {
             if(err) throw err;
             connection.end();
             Object.keys(result).forEach(function(key) {
-                vBody = vBody  + result[key].id + ' - ' + result[key].name + '</br>';
-                   
+                vBody = vBody  + result[key].id + ' - ' + result[key].name + '</br>';       
             }) 
             res.send(vBody);
 
